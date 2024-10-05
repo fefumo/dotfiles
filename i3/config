@@ -203,11 +203,12 @@ exec --no-startup-id xinput --set-prop  "ASUE140D:00 04F3:31B9 Touchpad" "libinp
 exec --no-startup-id xinput --set-prop "ASUE140D:00 04F3:31B9 Touchpad" "libinput Natural Scrolling Enabled" 1
 exec --no-startup-id xinput --set-prop "ASUE140D:00 04F3:31B9 Touchpad" "libinput Tapping Enabled" 1
 
-gaps outer 2px
-gaps inner 7px
+gaps outer 3px
+gaps inner 3px
+gaps top 0px
 
 #default_border pixel 5
-default_border normal 2
+default_border normal 1
 
 
 #client.focused          #f48144 #f48144 #ffffff #f48144   #f48144
